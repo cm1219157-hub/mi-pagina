@@ -79,14 +79,34 @@
             transform: scale(0.95); /* Efecto de hundido al presionarlo en el teléfono */
             box-shadow: 0 2px 8px rgba(56, 189, 248, 0.2);
         }
+        .scroll-indicator {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #38bdf8;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 0.5; }
+    50% { opacity: 1; }
+    100% { opacity: 0.5; }
+}
+        
     </style>
 </head>
 <body>
 
     <div class="card">
-        <h1>¡Hola, soy estudiante de Informática! 🚀</h1>
-        <div class="subtitle">Cristofer Moreno</div>
-        <p>Esta es mi primera página web personalizada para la clase de programación.</p>
+        <h1>¡Hola, soy Uziel07! 🚀</h1>
+        <div class="subtitle">Estudiante De Informática</div>
+        <p>Hoy en día, un negocio sin página web es una oportunidad perdida. Estoy aquí para ayudarte a transformar tus ideas en un espacio digital profesional donde tus clientes puedan encontrarte fácilmente. ¿Listo para dar el gran paso y digitalizar tu catálogo? </p>
+
+        
+    <p>...[tu descripción elegida]...</p>
+        <!-- Indicador de "deslizar" -->
+<div class="scroll-indicator">
+    <span>↓ Desliza para conectar ↓</span>
+</div>
         
         <!-- Contenedor de la foto -->
         <div class="photo-frame">
